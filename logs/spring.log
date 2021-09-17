@@ -1,0 +1,133 @@
+2021-09-17 15:26:21.113  INFO 20636 --- [main] lavalink.server.Launcher                 : 
+
+[32m       .  [31m _                  _ _       _    [32m__ _ _
+[32m      /\\ [31m| | __ ___   ____ _| (_)_ __ | | __[32m\ \ \ \
+[32m     ( ( )[31m| |/ _` \ \ / / _` | | | '_ \| |/ /[32m \ \ \ \
+[32m      \\/ [31m| | (_| |\ V / (_| | | | | | |   < [32m  ) ) ) )
+[32m       '  [31m|_|\__,_| \_/ \__,_|_|_|_| |_|_|\_\[32m / / / /
+[0m    =========================================[32m/_/_/_/[0m
+
+	Version:        2ac6bf4e0dcab9ba7493b0494316b8bee698913d-SNAPSHOT
+	Build:          1232
+	Build time:     20.04.2021 07:05:21 UTC
+	Branch          master
+	Commit:         2ac6bf4
+	Commit time:    20.04.2021 07:02:46 UTC
+	JVM:            17
+	Lavaplayer      1.3.76
+
+2021-09-17 15:26:21.194  INFO 20636 --- [main] lavalink.server.Launcher                 : Starting Launcher on DESKTOP-2PHNISC with PID 20636 (C:\Users\chira\Desktop\A-Advance-Discord-Music-Bot-Like-Hydra--main\Lavalink.jar started by chira in C:\Users\chira\Desktop\A-Advance-Discord-Music-Bot-Like-Hydra--main)
+2021-09-17 15:26:21.194  INFO 20636 --- [main] lavalink.server.Launcher                 : No active profile set, falling back to default profiles: default
+2021-09-17 15:26:21.260  WARN 20636 --- [background-preinit] o.s.h.c.j.Jackson2ObjectMapperBuilder    : For Jackson Kotlin classes support please add "com.fasterxml.jackson.module:jackson-module-kotlin" to the classpath
+2021-09-17 15:26:22.085  WARN 20636 --- [main] io.undertow.websockets.jsr               : UT026010: Buffer pool was not set on WebSocketDeploymentInfo, the default pool will be used
+2021-09-17 15:26:22.106  INFO 20636 --- [main] io.undertow.servlet                      : Initializing Spring embedded WebApplicationContext
+2021-09-17 15:26:22.106  INFO 20636 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 880 ms
+2021-09-17 15:26:22.371  WARN 20636 --- [main] l.server.config.SentryConfiguration      : Turning off sentry
+2021-09-17 15:26:22.590  INFO 20636 --- [main] c.s.d.l.tools.GarbageCollectionMonitor   : GC monitoring enabled, reporting results every 2 minutes.
+2021-09-17 15:26:22.771  INFO 20636 --- [main] lavalink.server.config.KoeConfiguration  : OS: Windows 10, Arch: amd64
+2021-09-17 15:26:22.771  WARN 20636 --- [main] lavalink.server.config.KoeConfiguration  : This system and architecture appears to not support native audio sending! GC pauses may cause your bot to stutter during playback.
+2021-09-17 15:26:22.954  INFO 20636 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-09-17 15:26:23.198  INFO 20636 --- [main] org.xnio                                 : XNIO version 3.3.8.Final
+2021-09-17 15:26:23.210  INFO 20636 --- [main] org.xnio.nio                             : XNIO NIO Implementation Version 3.3.8.Final
+2021-09-17 15:26:23.258  INFO 20636 --- [main] o.s.b.w.e.u.UndertowServletWebServer     : Undertow started on port(s) 2333 (http) with context path ''
+2021-09-17 15:26:23.262  INFO 20636 --- [main] lavalink.server.Launcher                 : Started Launcher in 2.528 seconds (JVM running for 3.099)
+2021-09-17 15:26:23.262  INFO 20636 --- [main] lavalink.server.Launcher                 : You can safely ignore the big red warning about illegal reflection. See https://github.com/freyacodes/Lavalink/issues/295
+2021-09-17 15:26:26.440  INFO 20636 --- [XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-09-17 15:26:26.441  INFO 20636 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-09-17 15:26:26.445  INFO 20636 --- [XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-09-17 15:26:26.457  INFO 20636 --- [XNIO-1 task-1] l.server.io.HandshakeInterceptorImpl     : Incoming connection from /127.0.0.1:11960
+2021-09-17 15:26:26.496  INFO 20636 --- [XNIO-1 task-1] lavalink.server.io.SocketServer          : Connection successfully established from /127.0.0.1:11960
+2021-09-17 15:26:32.634  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"852837599647105055","volume":50}
+2021-09-17 15:26:32.638  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"equalizer","guildId":"852837599647105055","bands":[{"band":0,"gain":0.25},{"band":1,"gain":0.025},{"band":2,"gain":0.0125},{"band":3,"gain":0},{"band":4,"gain":0},{"band":5,"gain":-0.0125},{"band":6,"gain":-0.025},{"band":7,"gain":-0.0175},{"band":8,"gain":0},{"band":9,"gain":0},{"band":10,"gain":0.0125},{"band":11,"gain":0.025},{"band":12,"gain":0.25},{"band":13,"gain":0.125},{"band":14,"gain":0.125}]}
+2021-09-17 15:26:32.639  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"852837599647105055","volume":100}
+2021-09-17 15:26:32.639  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"852837599647105055"}
+2021-09-17 15:26:32.647  INFO 20636 --- [XNIO-1 task-2] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:old town road"
+2021-09-17 15:26:33.169  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"3e6e0b270f3c4dd8c3a376d9f65e0d3c","op":"voiceUpdate","guildId":"852837599647105055","event":{"token":"411b5fa8371b82cc","guild_id":"852837599647105055","endpoint":"singapore860.discord.media:443"}}
+2021-09-17 15:26:33.944  INFO 20636 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: old town road
+2021-09-17 15:26:33.965  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"852837599647105055","track":"QAAAoQIAPkxpbCBOYXMgWCAtIE9sZCBUb3duIFJvYWQgKE9mZmljaWFsIFZpZGVvKSBmdC4gQmlsbHkgUmF5IEN5cnVzAAlMaWwgTmFzIFgAAAAAAAJpMAALcjdxb3ZwRkFHclEAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1yN3FvdnBGQUdyUQAHeW91dHViZQAAAAAAAAAA"}
+2021-09-17 15:26:34.309  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"3e6e0b270f3c4dd8c3a376d9f65e0d3c","op":"voiceUpdate","guildId":"852837599647105055","event":{"token":"411b5fa8371b82cc","guild_id":"852837599647105055","endpoint":"singapore860.discord.media:443"}}
+2021-09-17 15:26:35.790  INFO 20636 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: loading with filter com.sedmelluq.discord.lavaplayer.natives.ConnectorNativeLibLoader$$Lambda$566/0x00000008012d6a30@6d66567a
+2021-09-17 15:26:35.798  INFO 20636 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library libmpg123-0: successfully loaded.
+2021-09-17 15:26:35.798  INFO 20636 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: loading with filter null
+2021-09-17 15:26:35.824  INFO 20636 --- [lava-daemon-pool-playback-1-thread-1] c.s.l.c.natives.NativeLibraryLoader      : Native library connector: successfully loaded.
+2021-09-17 15:26:42.296  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"852837599647105055","pause":true}
+2021-09-17 15:26:42.298  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"852837599647105055"}
+2021-09-17 15:27:00.350  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"852837599647105055","volume":50}
+2021-09-17 15:27:00.351  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"equalizer","guildId":"852837599647105055","bands":[{"band":0,"gain":0.25},{"band":1,"gain":0.025},{"band":2,"gain":0.0125},{"band":3,"gain":0},{"band":4,"gain":0},{"band":5,"gain":-0.0125},{"band":6,"gain":-0.025},{"band":7,"gain":-0.0175},{"band":8,"gain":0},{"band":9,"gain":0},{"band":10,"gain":0.0125},{"band":11,"gain":0.025},{"band":12,"gain":0.25},{"band":13,"gain":0.125},{"band":14,"gain":0.125}]}
+2021-09-17 15:27:00.351  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"852837599647105055","volume":100}
+2021-09-17 15:27:00.351  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"852837599647105055"}
+2021-09-17 15:27:00.354  INFO 20636 --- [XNIO-1 task-4] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:sunflower rex orange"
+2021-09-17 15:27:00.860  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"3e6e0b270f3c4dd8c3a376d9f65e0d3c","op":"voiceUpdate","guildId":"852837599647105055","event":{"token":"9c6ede13d40baf66","guild_id":"852837599647105055","endpoint":"singapore860.discord.media:443"}}
+2021-09-17 15:27:01.289  INFO 20636 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: sunflower rex orange
+2021-09-17 15:27:01.301  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"852837599647105055","track":"QAAAqAIAPltUSEFJU1VCXSBTVU5GTE9XRVJTIC0gUmV4IE9yYW5nZSBDb3VudHkg4LmB4Lib4Lil4LmA4Lie4Lil4LiHABBkbnQgZmFsbCBpbiBsb3ZlAAAAAAAD2GAAC0oyTUVwbTViM2hvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9SjJNRXBtNWIzaG8AB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-09-17 15:27:01.991  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"3e6e0b270f3c4dd8c3a376d9f65e0d3c","op":"voiceUpdate","guildId":"852837599647105055","event":{"token":"9c6ede13d40baf66","guild_id":"852837599647105055","endpoint":"singapore860.discord.media:443"}}
+2021-09-17 15:27:29.241  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"seek","guildId":"852837599647105055","position":44000}
+2021-09-17 15:27:40.424  INFO 20636 --- [XNIO-1 task-6] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:old town road"
+2021-09-17 15:27:41.368  INFO 20636 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: old town road
+2021-09-17 15:27:47.356  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"852837599647105055"}
+2021-09-17 15:27:47.360  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"852837599647105055","track":"QAAAoQIAPkxpbCBOYXMgWCAtIE9sZCBUb3duIFJvYWQgKE9mZmljaWFsIFZpZGVvKSBmdC4gQmlsbHkgUmF5IEN5cnVzAAlMaWwgTmFzIFgAAAAAAAJpMAALcjdxb3ZwRkFHclEAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1yN3FvdnBGQUdyUQAHeW91dHViZQAAAAAAAAAA"}
+2021-09-17 15:27:52.068  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"pause","guildId":"852837599647105055","pause":true}
+2021-09-17 15:27:52.069  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"852837599647105055"}
+2021-09-17 15:27:58.118  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"852837599647105055","volume":50}
+2021-09-17 15:27:58.120  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"equalizer","guildId":"852837599647105055","bands":[{"band":0,"gain":0.25},{"band":1,"gain":0.025},{"band":2,"gain":0.0125},{"band":3,"gain":0},{"band":4,"gain":0},{"band":5,"gain":-0.0125},{"band":6,"gain":-0.025},{"band":7,"gain":-0.0175},{"band":8,"gain":0},{"band":9,"gain":0},{"band":10,"gain":0.0125},{"band":11,"gain":0.025},{"band":12,"gain":0.25},{"band":13,"gain":0.125},{"band":14,"gain":0.125}]}
+2021-09-17 15:27:58.122  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"852837599647105055","volume":100}
+2021-09-17 15:27:58.123  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"852837599647105055"}
+2021-09-17 15:27:58.126  INFO 20636 --- [XNIO-1 task-8] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:rex orange county sunflower"
+2021-09-17 15:27:58.657  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"3e6e0b270f3c4dd8c3a376d9f65e0d3c","op":"voiceUpdate","guildId":"852837599647105055","event":{"token":"59c720a84e4db924","guild_id":"852837599647105055","endpoint":"singapore860.discord.media:443"}}
+2021-09-17 15:27:59.056  INFO 20636 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: rex orange county sunflower
+2021-09-17 15:27:59.851  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"3e6e0b270f3c4dd8c3a376d9f65e0d3c","op":"voiceUpdate","guildId":"852837599647105055","event":{"token":"59c720a84e4db924","guild_id":"852837599647105055","endpoint":"singapore860.discord.media:443"}}
+2021-09-17 15:28:03.185  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"852837599647105055","track":"QAAAmQIALlJleCBPcmFuZ2UgQ291bnR5IC0gU3VuZmxvd2VyIChPZmZpY2lhbCBBdWRpbykAEVJleCBPcmFuZ2UgQ291bnR5AAAAAAAD3EgAC1YwWC1TV2lEcjFnAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9VjBYLVNXaURyMWcAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-09-17 15:32:45.960  INFO 20636 --- [XNIO-1 task-10] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:thousand years"
+2021-09-17 15:32:46.971  INFO 20636 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: thousand years
+2021-09-17 15:32:46.979  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"852837599647105055","track":"QAAAogIAOUNocmlzdGluYSBQZXJyaSAtIEEgVGhvdXNhbmQgWWVhcnMgW09mZmljaWFsIE11c2ljIFZpZGVvXQAPQ2hyaXN0aW5hIFBlcnJpAAAAAAAEZQAAC3J0T3ZCT1R5WDAwAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9cnRPdkJPVHlYMDAAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-09-17 15:33:38.106  INFO 20636 --- [XNIO-1 task-12] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:umbrella"
+2021-09-17 15:33:39.013  INFO 20636 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: umbrella
+2021-09-17 15:37:35.618  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"852837599647105055","track":"QAAApQIARFJpaGFubmEgLSBVbWJyZWxsYSAoT3JhbmdlIFZlcnNpb24pIChPZmZpY2lhbCBNdXNpYyBWaWRlbykgZnQuIEpBWS1aAAdSaWhhbm5hAAAAAAAD5BgAC0N2QmZId1V4SElrAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9Q3ZCZkh3VXhISWsAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-09-17 15:37:50.292  INFO 20636 --- [XNIO-1 task-14] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:youre not the only one"
+2021-09-17 15:37:51.447  INFO 20636 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: youre not the only one
+2021-09-17 15:38:21.719  INFO 20636 --- [XNIO-1 task-16] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:your not the only one"
+2021-09-17 15:38:22.628  INFO 20636 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: your not the only one
+2021-09-17 15:41:51.439  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"852837599647105055","track":"QAAAtQIAT0x1a2FzIEdyYWhhbSAtIFlvdSdyZSBOb3QgVGhlIE9ubHkgT25lIChSZWRlbXB0aW9uIFNvbmcpIFtPRkZJQ0lBTCBMWVJJQyBWSURFT10ADEx1a2FzIEdyYWhhbQAAAAAAAsrYAAtuZVhrekxEd25JawABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PW5lWGt6TER3bklrAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-09-17 15:44:54.740  INFO 20636 --- [XNIO-1 task-18] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Pearpilincys - ????"
+2021-09-17 15:44:55.697  INFO 20636 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Pearpilincys - ????
+2021-09-17 15:44:55.705  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"852837599647105055","track":"QAAAhgIAIOC4guC4reC4peC4siAtIFBlYXJwaWxpbmN5cyB8IE1WAAxQZWFycGlsaW5jeXMAAAAAAARZSAALb2t0dk1MdkppYzgAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1va3R2TUx2SmljOAAHeW91dHViZQAAAAAAAAAA"}
+2021-09-17 15:49:41.349  INFO 20636 --- [XNIO-1 task-20] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Benjamin Varney - Thai Tea"
+2021-09-17 15:49:42.271  INFO 20636 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Benjamin Varney - Thai Tea
+2021-09-17 15:49:42.276  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"852837599647105055","track":"QAAAlwIANFRoYWkgVGVhIC0gQmVuamFtaW4gVmFybmV5IChGdC4gTWludHJhIEEuKSAvL1RoYWlzdWIACW5vaHBheWFoYwAAAAAAA3a4AAsyMHlaeU5pOENZbwABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PTIweVp5Tmk4Q1lvAAd5b3V0dWJlAAAAAAAAAAA="}
+2021-09-17 15:52:13.577  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"720950965699870772","volume":50}
+2021-09-17 15:52:13.579  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"equalizer","guildId":"720950965699870772","bands":[{"band":0,"gain":0.25},{"band":1,"gain":0.025},{"band":2,"gain":0.0125},{"band":3,"gain":0},{"band":4,"gain":0},{"band":5,"gain":-0.0125},{"band":6,"gain":-0.025},{"band":7,"gain":-0.0175},{"band":8,"gain":0},{"band":9,"gain":0},{"band":10,"gain":0.0125},{"band":11,"gain":0.025},{"band":12,"gain":0.25},{"band":13,"gain":0.125},{"band":14,"gain":0.125}]}
+2021-09-17 15:52:13.580  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"volume","guildId":"720950965699870772","volume":100}
+2021-09-17 15:52:13.581  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"stop","guildId":"720950965699870772"}
+2021-09-17 15:52:13.583  INFO 20636 --- [XNIO-1 task-22] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:yayayyaa"
+2021-09-17 15:52:14.095  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"3e6e0b270f3c4dd8c3a376d9f65e0d3c","op":"voiceUpdate","guildId":"720950965699870772","event":{"token":"ac40d61ed3027ecd","guild_id":"720950965699870772","endpoint":"singapore864.discord.media:443"}}
+2021-09-17 15:52:14.481  INFO 20636 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: yayayyaa
+2021-09-17 15:52:14.484  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"720950965699870772","track":"QAAAfgIAG011dXUgbWFtYW1hIG1lbWVuZSB5YXlheXlhYQAJSkREQyBWTE9HAAAAAAAAMsgAC2REQnJfS0w2SG5nAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9ZERCcl9LTDZIbmcAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-09-17 15:52:14.937  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"3e6e0b270f3c4dd8c3a376d9f65e0d3c","op":"voiceUpdate","guildId":"720950965699870772","event":{"token":"ac40d61ed3027ecd","guild_id":"720950965699870772","endpoint":"singapore864.discord.media:443"}}
+2021-09-17 15:53:30.580  INFO 20636 --- [XNIO-1 task-24] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Numcha - Keep Cold"
+2021-09-17 15:53:31.453  INFO 20636 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Numcha - Keep Cold
+2021-09-17 15:53:31.457  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"852837599647105055","track":"QAAAgAIAIE51bWNoYSAtIEtlZXAgQ29sZCAoT2ZmaWNpYWwgTVYpAAZOdW1jaGEAAAAAAAQHQAALZzh6M3JMam1GVWMAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1nOHozckxqbUZVYwAHeW91dHViZQAAAAAAAAAA"}
+2021-09-17 15:56:27.412  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"sessionId":"3e6e0b270f3c4dd8c3a376d9f65e0d3c","op":"voiceUpdate","guildId":"720950965699870772","event":{"token":"ac40d61ed3027ecd","guild_id":"720950965699870772","endpoint":"singapore864.discord.media:443"}}
+2021-09-17 15:56:27.416  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"destroy","guildId":"720950965699870772"}
+2021-09-17 15:57:56.298  INFO 20636 --- [XNIO-1 task-26] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:????? - ????????????"
+2021-09-17 15:57:57.068  INFO 20636 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: ????? - ????????????
+2021-09-17 15:57:57.074  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"852837599647105055","track":"QAAAuAIAV+C4luC5ieC4suC4q+C4suC4geC5guC4peC4geC4meC4teC5ieC5hOC4oeC5iOC4oeC4teC4lOC4p+C4h+C4iOC4seC4meC4l+C4o+C5jCBpbGxzbGljawAHVG9uZyBDcwAAAAAAA6WYAAtqZ2Jubzl5bEpFNAABACtodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWpnYm5vOXlsSkU0AAd5b3V0dWJlAAAAAAAAAAA="}
+2021-09-17 16:01:56.500  INFO 20636 --- [XNIO-1 task-28] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:MASKETEER - ????? ?????"
+2021-09-17 16:01:57.445  INFO 20636 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: MASKETEER - ????? ?????
+2021-09-17 16:01:57.449  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"852837599647105055","track":"QAAApQIAQOC4iOC4reC4o+C5jOC4iCDguIvguLLguKPguYjguLIgLSBNYXNrZXRlZXIgIFggU2xlZXAgRmxvd3ogWCBKS1IAC1NsZWVwIEZsb3d6AAAAAAAC9dAAC1E3SHBmRnRRY2VvAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9UTdIcGZGdFFjZW8AB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-09-17 16:05:11.919  INFO 20636 --- [XNIO-1 task-30] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Pearpilincys - ???????"
+2021-09-17 16:05:12.808  INFO 20636 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Pearpilincys - ???????
+2021-09-17 16:05:12.813  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"852837599647105055","track":"QAAAjwIAKeC5geC4n+C4meC4hOC4o+C4seC4miAtIFBlYXJwaWxpbmN5cyBJIE1WAAxQZWFycGlsaW5jeXMAAAAAAAMBiAALeUUtMGVlUWpZVjgAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj15RS0wZWVRallWOAAHeW91dHViZQAAAAAAAAAA"}
+2021-09-17 16:08:30.223  INFO 20636 --- [XNIO-1 task-32] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:Dane Amar - Time"
+2021-09-17 16:08:31.128  INFO 20636 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: Dane Amar - Time
+2021-09-17 16:08:31.132  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"852837599647105055","track":"QAAAZgIABFRpbWUACERhbmVBbWFyAAAAAAACVagAC2J0MlA3Rjl3YXhZAAEAK2h0dHBzOi8vd3d3LnlvdXR1YmUuY29tL3dhdGNoP3Y9YnQyUDdGOXdheFkAB3lvdXR1YmUAAAAAAAAAAA=="}
+2021-09-17 16:11:04.621  INFO 20636 --- [XNIO-1 task-34] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:H 3 F - How Can I"
+2021-09-17 16:11:05.487  INFO 20636 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: H 3 F - How Can I
+2021-09-17 16:11:05.490  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"852837599647105055","track":"QAAAcQIACUhvdyBDYW4gSQAOT2ZmaWNpYWwgSCAzIEYAAAAAAAQesAALUjRDeEdSSE43U1UAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1SNEN4R1JITjdTVQAHeW91dHViZQAAAAAAAAAA"}
+2021-09-17 16:15:35.703  INFO 20636 --- [XNIO-1 task-36] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:GUZT - ?????????????????"
+2021-09-17 16:15:36.693  INFO 20636 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: GUZT - ?????????????????
+2021-09-17 16:15:36.701  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"852837599647105055","track":"QAAApAIAM+C4hOC4sOC4guC4suC5gOC4m+C5h+C4meC4hOC4meC5gOC4iOC5ieC4suC4iuC4ueC5iQAXVmFyaW91cyBBcnRpc3RzIC0gVG9waWMAAAAAAAK3UAALcExpV0RmOUhHTUkAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1wTGlXRGY5SEdNSQAHeW91dHViZQAAAAAAAAAA"}
+2021-09-17 16:18:36.442  INFO 20636 --- [XNIO-1 task-38] l.server.player.AudioLoaderRestHandler   : Got request to load for identifier "ytsearch:LANDOKMAI - Please Be True"
+2021-09-17 16:18:37.306  INFO 20636 --- [lava-daemon-pool-info-loader-2-thread-1] lavalink.server.player.AudioLoader       : Loaded playlist Search results for: LANDOKMAI - Please Be True
+2021-09-17 16:18:37.309  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : {"op":"play","guildId":"852837599647105055","track":"QAAAcQIADlBsZWFzZSBCZSBUcnVlAAlMQU5ET0tNQUkAAAAAAATKkAALY245LTUyUUo4X2MAAQAraHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1jbjktNTJRSjhfYwAHeW91dHViZQAAAAAAAAAA"}
+2021-09-17 16:22:21.521  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketServer          : Connection closed from /127.0.0.1:11960 -- CloseStatus[code=1006, reason=]
+2021-09-17 16:22:21.521  INFO 20636 --- [XNIO-1 I/O-4] lavalink.server.io.SocketContext         : Shutting down 1 playing players.

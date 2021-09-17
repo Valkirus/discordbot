@@ -1,0 +1,53 @@
+{
+  "token": "ODUyOTIwMjY0OTAyODM2MjI2.YMN15Q.kGpZy4GeJOcEJV4qzrrgt17V9qc",
+  "prefix": "!",
+
+  "clientsettings": {
+    "nodes": [
+      {
+         "host": "localhost",
+         "port": 2333,
+         "password": "youshallnotpass"
+       }
+     ]
+  },
+
+  "spotify": {
+    "clientSecret": "b06e94d343d64cea8d81bf8885f0d13b",
+    "clientID": "5126461b343d433297a9f612c3a0618d"
+  },
+
+  "settings": {
+       "COMMENT": "time_delay 0 === insta leave",
+    "progressbar_emoji": "🔶",
+    "leaveOnEmpty_Channel" : {
+      "enabled": false,
+      "time_delay": 60000
+    },
+    "LeaveOnEmpty_Queue": {
+      "enabled": false,
+      "time_delay": 30000
+    },
+    "selfDeaf": true,
+    "serverDeaf": true
+  },
+
+  "lyricssettings": {
+    "lyrics_finder": true,         "COMMENT": "my suggestion is to use ksoft_api on true and paste in the api key u can sign up, until u get the key use lyrics_finder which is way weaker but better the nothing",
+    "ksoft_api": {
+      "use_this_instead": false,
+      "api_key": ""
+    }
+  },
+
+
+  "ownerIDS": ["821095540569407508"],
+
+
+  "status": {
+    "text": "!help",
+    "type": "PLAYING", "COMMENT:": "นั่งสมาธิ",
+    "url": ""
+  }
+
+}
